@@ -4,6 +4,7 @@
   "description": "Headless cms for WordPress posts - demo",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/teeehn/wpposts/issues"
   },
-  "homepage": "https://github.com/teeehn/wpposts#readme"
+  "homepage": "https://github.com/teeehn/wpposts#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
