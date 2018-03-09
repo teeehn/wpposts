@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 5000
 
 app.get('/', function (req, res) {
     res.sendFile('index.html');
 });
 
-app.listen(app.get('port'), function() {
-console.log('Node app is running on port', app.get('port'));
+app.listen(PORT, function() {
+    console.log('Node app is running on port ${PORT}');
 });
