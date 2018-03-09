@@ -1,0 +1,20 @@
+{
+  "name": "wpposts",
+  "version": "1.0.0",
+  "description": "Headless cms for WordPress posts - demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teeehn/wpposts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teeehn/wpposts/issues"
+  },
+  "homepage": "https://github.com/teeehn/wpposts#readme"
+}
